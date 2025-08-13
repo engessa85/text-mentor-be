@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Environment files
+.env
+*.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Flask instance folder (for uploads, temp files)
+instance/
+
+# Chroma vector DB
+chroma_db/
+
+# Uploaded files
+uploads/
+
+# SQLite database
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.swp
+*.swo
