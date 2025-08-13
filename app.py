@@ -14,7 +14,8 @@ from werkzeug.utils import secure_filename
 from dotenv import load_dotenv
 
 # LangChain / vectorstore imports
-from langchain.document_loaders import PyPDFLoader
+# from langchain.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 from langchain_chroma import Chroma
@@ -400,8 +401,8 @@ def delete_file(file_id):
 
     
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
 
 
 
